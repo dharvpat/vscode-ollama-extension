@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+	  "target": "es6",
+	  "module": "commonjs",
+	  "lib": ["es6"],
+	  "outDir": "out",
+	  "sourceMap": true,
+	  "rootDir": "src",
+	  "strict": true,
+	  "esModuleInterop": true,
+	  "skipLibCheck": true,
+	  "forceConsistentCasingInFileNames": true,
+	  "types": ["node", "mocha"]
+	},
+	"exclude": [
+	  "node_modules",
+	  ".vscode-test"
+	]
+  }  
